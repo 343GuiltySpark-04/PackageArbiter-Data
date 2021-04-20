@@ -15,4 +15,6 @@ sudo chown -R root:wheel $scripts_dir
 
 sudo chmod -R g+w $db_dir
 
-sudo chmod -R g+w+x $scripts_dir
+sudo chmod -R g+w $scripts_dir
+
+sudo chmod -R +x $scripts_dir
