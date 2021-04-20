@@ -1,0 +1,10 @@
+
+-
+  Name: tree
+  Version: 1.8
+  Config_dir: n/a
+  Install: tree_install.sh
+  Uninstall: tree_uninstall.sh
+  Check: /usr/bin/tree
+  Bin_name: tree
+  Cache_name: /usr/local/packageArbiter/cache/tree.tar.gz
