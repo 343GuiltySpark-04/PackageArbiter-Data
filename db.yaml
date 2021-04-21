@@ -21,4 +21,4 @@
   Bin_name: yasm
   Cache_name: /usr/local/packageArbiter/cache/yasm.tar.xz
   Deps: ['none']
-  Opt_deps: ['none']
+  Opt_deps: ['python2', 'cython']
