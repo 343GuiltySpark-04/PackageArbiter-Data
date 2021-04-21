@@ -8,13 +8,17 @@
   Check: /usr/bin/tree
   Bin_name: tree
   Cache_name: /usr/local/packageArbiter/cache/tree.tar.gz
+  Deps: ['none']
+  Opt_deps: ['none']
 
 -
   Name: yasm
   Version: 1.3
-  config_dir: n/a
-  install: yasm_install.sh
+  Config_dir: n/a
+  Install: yasm_install.sh
   Uninstall: yasm_uninstall.sh
   Check: /usr/bin/yasm
   Bin_name: yasm
   Cache_name: /usr/local/packageArbiter/cache/yasm.tar.xz
+  Deps: ['none']
+  Opt_deps: ['python2', 'cython']
